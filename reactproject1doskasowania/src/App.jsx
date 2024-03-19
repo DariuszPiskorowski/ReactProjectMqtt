@@ -6,7 +6,7 @@ function App() {
     return (
         <div className="App">
             <h1>Mój Klient MQTT</h1>
-            <MQTTClient brokerUrl="wss://test.mosquitto.org:8081" topic="test/topic" />
+            <MQTTClient brokerUrl="wss://Hass-Mqtt-Server.local:1883" topic="Boiler/Temperature/#" />
         </div>
     );
 }
